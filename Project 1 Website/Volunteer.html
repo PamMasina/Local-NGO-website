@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volunteer with Us</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <h1>Join Our Volunteer Team</h1>
+        <p>Help us make a difference in education, health, and environmental sustainability.</p>
+        <div class="dropdown">
+            <button class="dropdown-button"><i class='bx bx-menu'></i></button>
+            <div class="dropdown-content">
+                <button class="close-dropdown"><i class='bx bx-x'></i></button>
+                <a href="index.html">Home</a>
+                <a href="donation.html">Donation</a>
+                <a href="volunteer.html">Volunteer</a>
+                <a href="Project.html">Project</a>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section class="media-section">
+            <h2>See How Our Volunteers Make an Impact</h2>
+            <video class="media-video" autoplay muted loop>
+                <source src="video/non.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <form id="volunteerForm">
+            <label for="volunteerName">Full Name:</label>
+            <input type="text" id="volunteerName" name="volunteerName" placeholder="Reck-00" required>
+
+            <label for="volunteerEmail">Email Address:</label>
+            <input type="email" id="volunteerEmail" name="volunteerEmail" placeholder="wwww@gmail.com" required>
+
+            <label for="volunteerPhone">Phone Number:</label>
+            <input type="tel" id="volunteerPhone" name="volunteerPhone" placeholder="+27 693 936 189">
+
+            <label for="interest">Area of Interest:</label>
+            <select id="volunteerInterest" name="volunteerInterest" required>
+                <option value="">Select an Area</option>
+                <option value="sustainableAgriculture">Sustainable Agriculture</option>
+                <option value="youthDevelopment">Youth Development</option>
+                <option value="publicHealth">Public Health</option>
+                <option value="environmentalConservation">Environmental Conservation</option>
+                <option value="foodSecurity">Food Security</option>
+                <option value="elderCare">Elder Care</option>
+            </select>
+
+            <label>Availability:</label>
+            <div class="radio-group">
+                <input type="radio" id="weekdays" name="volunteerAvailability" value="weekdays" required>
+                <label for="weekdays">Weekdays</label>
+                <input type="radio" id="weekends" name="volunteerAvailability" value="weekends" required>
+                <label for="weekends">Weekends</label>
+            </div>
+
+            <input type="submit" value="Sign Up" class="submit-btn">
+        </form>
+
+    </div>
+
+    <script src="Script/contactForm.js"></script>
+    <script src="Script/volunteerForm.js"></script>
+    <script src="Script/DropDown.js"></script>
+
+</body>
+<footer>
+    <hr>
+    <ul>
+        <li>FOLLOW US ON OUR SOCIAL MEDIA CHANNELS</li> <BR></BR>
+        <a href="https://www.facebook.com/">
+            <li><i class='bx bxl-facebook-circle'></i></li>
+        </a>
+        <a href="https://api.linkedin.com/login">
+            <li><i class='bx bxl-linkedin-square'></i></li>
+        </a>
+        <a href="https://www.instagram.com/">
+            <li><i class='bx bxl-instagram-alt'></i></li>
+        </a>
+    </ul>
+    <hr>
+    <ul class="menu">
+        <li class="menu-item">
+            <a href="index.html">Homepage</a>
+        </li>
+        <li class="menu-item">
+            <a href="donation.html">Donation</a>
+        </li>
+        <li class="menu-item">
+            <a href="Volunteer.html">Volunteer</a>
+        </li>
+        <li class="menu-item"></li>
+        <a href="Project.html">Project</a>
+    </ul>
+    <br>
+    <b>
+        <a href="index.html"><i class='bx bxs-home'></i>Back to Home</a>
+        <p> <b> &copy; 2024 NGO</p>
+    </b>
+</footer>
+
+</html>

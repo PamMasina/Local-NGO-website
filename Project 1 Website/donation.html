@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/NavCss.css">
+    <link rel="stylesheet" href="Style/inIndexCont.css">
+    <link rel="stylesheet" href="Style/donate.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Donation.com</title>
+</head>
+<header class="top-navigation">
+    <h1>bhubchbvyub</h1>
+    <div class="dropdown">
+        <button class="dropdown-button"><i class='bx bx-menu'></i></button>
+        <div class="dropdown-content">
+            <button class="close-dropdown"><i class='bx bx-x'></i></button>
+            <a href="index.html">Home</a>
+            <a href="donation.html">Donation</a>
+            <a href="Volunteer.html">Volunteer</a>
+        </div>
+    </div>
+    </div>
+</header>
+
+<body>
+    <section class="top-image">
+        <img src="images/6.jpg" alt="Home Image" class="super-image">
+        <div class="top-text">
+            <h4>
+                Save the community</h4>
+        </div>
+    </section>
+
+    <div class="options">
+        <button>Monthly Donation</button>
+        <button>One-Off Donation</button>
+    </div>
+    </div>
+
+<form>
+    <div class="form-content">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+    </div>
+
+    <div class="form-content">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email" required>
+    </div>
+
+    <div class="form-content">
+        <label for="donation">Donation Amount (ZAR):</label>
+        <input type="text" id="donation" placeholder="Donation Amount (ZAR)" required>
+    </div>
+
+    <div class="form-content">
+        <label for="cellphone">Cellphone Number:</label>
+        <input type="tel" id="cellphone" placeholder="Cellphone Number" required>
+    </div>
+
+    <div class="form-content">
+        <label for="Payment">Payment Method:</label> 
+        <select id="Payment" name="Payment" required>
+            <option value disabled selected>Select Payment Method</option>
+            <option value="credit-card">Credit Card</option>
+            <option value="debit-card">Debit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="bank-transfer">Bank Transfer</option>
+        </select>
+    </div>
+
+    <div class="form-content">
+        <button type="submit" onclick="alert('Thank you for your donation!')">Donate Now</button>
+    </div>
+</form>
+<script src="Script/DropDown.js"></script>
+</body>
+
+<footer>
+    <hr>
+    <ul>
+        <li>FOLLOW US ON OUR SOCIAL MEDIA CHANNELS</li> <BR></BR>
+        <a href="https://www.facebook.com/">
+            <li><i class='bx bxl-facebook-circle'></i></li>
+        </a>
+        <a href="https://api.linkedin.com/login">
+            <li><i class='bx bxl-linkedin-square'></i></li>
+        </a>
+        <a href="https://www.instagram.com/">
+            <li><i class='bx bxl-instagram-alt'></i></li>
+        </a>
+    </ul>
+    <hr>
+    <ul class="menu">
+        <li class="menu-item">
+            <a href="index.html">Homepage</a>
+        </li>
+        <li class="menu-item">
+            <a href="donation.html">Donation</a>
+        </li>
+        <li class="menu-item">
+            <a href="Volunteer.html">Volunteer</a>
+        </li>
+    </ul>
+    <br>
+    <b>
+        <a href="index.html"><i class='bx bxs-home'></i>Back to Home</a>
+        <p> <b> &copy; 2024 NGO</p>
+    </b>
+</footer>
+
+</html>

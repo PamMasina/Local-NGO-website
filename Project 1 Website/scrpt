@@ -1,0 +1,3 @@
+function learnMore() {
+    alert("Thank you for your interest! More details about our NGO and projects will be available soon.");
+}
